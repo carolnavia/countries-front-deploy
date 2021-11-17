@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.main {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../imagenes/aventuras-sostenibles-gracias-a-paso-del-noroeste-noticias-infocif.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.fondo {
+  background: rgb(167, 188, 247, 0.4);
+  font-family: "Architects Daughter", cursive;
+  align-items: center;
+  text-align: center;
+  width: 35%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 50px;
+  transition: all 0.25s;
+}
+.fondo:hover {
+  transform: translateX(-15px);
+  box-shadow: 0 15px 18px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 39px;
+  border-radius: 10px;
+  background: rgb(235, 137, 8, 0.6);
+  font-family: "Architects Daughter", cursive;
+  box-shadow: whitesmoke 0px 0px 20px 0px;
+  text-shadow: #591717 1px 1px 1px;
+  color: black;
+  margin: 5px;
+}
+.btn:hover {
+  box-shadow: 0px 0px 20px 0px white;
+  background: rgb(167, 188, 247, 0.4);
+  color: whitesmoke;
+}

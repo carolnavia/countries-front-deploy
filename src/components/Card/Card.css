@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.card {
+  padding: 15px;
+  margin: 10px;
+  background-color: rgb(167, 188, 247, 0.5);
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  align-items: center;
+  font-family: "Architects Daughter", cursive;
+  text-shadow: 5px, 5px, 5px, 5px white;
+  font-size: 25px;
+  color: black;
+  /* transition: all 0.25s; */
+}
+
+.cards {
+  margin-left: 70px;
+  float: left;
+}
+
+.flag {
+  padding-top: 20px;
+  width: 200px;
+  height: 80px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+h3 {
+  text-decoration: none;
+  color: #000003;
+}
+
+.card:hover {
+  background-color: rgb(247, 223, 250);
+  transform: translateX(-10px);
+
+  box-shadow: 0px 0px 10px 0px white;
+}

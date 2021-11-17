@@ -1,0 +1,58 @@
+.contenedor-filtros {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  padding: 40px;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.az {
+  width: 200px;
+}
+
+.seleccion {
+  width: 220px;
+  height: 40px;
+  background: rgb(167, 188, 247, 0.4);
+
+  font-size: 13px;
+  margin-right: 20px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+  text-shadow: #591717 1px 1px 1px;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  padding-left: 4px;
+}
+
+.seleccion:hover {
+  box-shadow: 0px 0px 20px 0px white;
+  background: rgb(235, 137, 8, 0.6);
+  color: whitesmoke;
+}
+
+.selec {
+  width: 220px;
+  height: 40px;
+  background: rgb(167, 188, 247, 0.4);
+
+  font-size: 13px;
+  margin-right: 20px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+  text-shadow: #591717 1px 1px 1px;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  padding-left: 4px;
+}
+
+.titSel {
+  font-size: 30px;
+}

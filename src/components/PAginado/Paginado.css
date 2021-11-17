@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+.paginado {
+  margin: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.paginado ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.btnPag {
+  padding: 10px 15px;
+  color: #000003;
+  background: rgb(167, 188, 247, 0.5);
+  font-family: "Architects Daughter, cursive;";
+  border-radius: 10px;
+  transition: all 0.25s;
+  box-shadow: 0px 0px 5px 0px white;
+}
+
+.btnPag:hover {
+  background-color: rgb(235, 137, 8, 0.6);
+  color: whitesmoke;
+  transform: translateX(-5px);
+  box-shadow: 0px 0px 20px 0px white;
+}
