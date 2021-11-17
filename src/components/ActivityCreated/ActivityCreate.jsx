@@ -55,13 +55,16 @@ export default function ActivityCreated() {
     if (!name || !difficulty || !duration || !season || !countryArray)
       return alert("Todos los campos son obligatorios");
     else {
-      const result = await axios.post("http://localhost:3001/activity", {
-        name,
-        difficulty,
-        duration,
-        season,
-        country: countryArray,
-      });
+      const result = await axios.post(
+        "https://countries-api-carolnavia.herokuapp.com/activity",
+        {
+          name,
+          difficulty,
+          duration,
+          season,
+          country: countryArray,
+        }
+      );
       alert("Actividad creada con exito");
       return result.data.msg;
     }
