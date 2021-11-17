@@ -14,7 +14,7 @@ export default function ActivityCreated() {
     countryArray: [],
   });
 
-  const [errors, setErrors] = useState("");
+  const [setErrors] = useState("");
 
   const handlerChange = (e) => {
     let value = e.target.value;
