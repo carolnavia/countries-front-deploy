@@ -20,7 +20,7 @@ export default function Detail() {
   async function getCountryDetail(id) {
     try {
       const response = await axios.get(
-        `https://countries-api-carolnavia.herokuapp.com/countries/${id}`
+        `https://backend-countries-carolnavia.herokuapp.com/countries/${id}`
       );
       setCountry(response.data);
     } catch (error) {

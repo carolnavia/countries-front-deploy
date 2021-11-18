@@ -56,7 +56,7 @@ export default function ActivityCreated() {
       return alert("Todos los campos son obligatorios");
     else {
       const result = await axios.post(
-        "https://countries-api-carolnavia.herokuapp.com/activity",
+        "https://backend-countries-carolnavia.herokuapp.com/activity",
         {
           name,
           difficulty,

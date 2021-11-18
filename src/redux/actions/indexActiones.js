@@ -12,7 +12,7 @@ export const FILTER_ACTIVITIES = "FILTER_ACTIVITIES";
 export function getCountries() {
   return async function (dispatch) {
     var json = await axios.get(
-      "https://countries-api-carolnavia.herokuapp.com/countries"
+      "https://backend-countries-carolnavia.herokuapp.com/countries"
     );
     return dispatch({
       type: "GET_COUNTRIES",
@@ -25,7 +25,7 @@ export function searchByName(name) {
   return async function (dispatch) {
     try {
       const result = await axios.get(
-        `https://countries-api-carolnavia.herokuapp.com/countries/?name=${name}`
+        `https://backend-countries-carolnavia.herokuapp.com/countries/?name=${name}`
       );
       return dispatch({
         type: "SEARCH_NAME",
@@ -40,7 +40,7 @@ export function searchByName(name) {
 export function getActivities() {
   return async function (dispatch) {
     const response = await axios.get(
-      "https://countries-api-carolnavia.herokuapp.com/activity"
+      "https://backend-countries-carolnavia.herokuapp.com/activity"
     );
     dispatch({
       type: "GET_ACTIVITY",
